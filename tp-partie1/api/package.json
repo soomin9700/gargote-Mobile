@@ -1,0 +1,10 @@
+{
+  "name": "gargote-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini-API Gargote pour le TP Ionic (aucune dépendance)",
+  "scripts": {
+    "start": "node server.js",
+    "start:v2": "node server.js --v2"
+  }
+}

@@ -1,0 +1,32 @@
+/*
+ * Couleurs de l'application (charte ITUniversity).
+ * Ionic utilise ces variables dans tous ses composants :
+ * <ion-button color="primary">, <ion-badge color="secondary">...
+ */
+:root {
+  --ion-color-primary: #222e76;
+  --ion-color-primary-rgb: 34, 46, 118;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #1e2868;
+  --ion-color-primary-tint: #384384;
+
+  --ion-color-secondary: #76b729;
+  --ion-color-secondary-rgb: 118, 183, 41;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #68a124;
+  --ion-color-secondary-tint: #84be3e;
+}
+
+/* En mode sombre, le bleu marine est trop foncé : on l'éclaircit */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-color-primary: #8f9bea;
+    --ion-color-primary-rgb: 143, 155, 234;
+    --ion-color-primary-contrast: #000000;
+    --ion-color-primary-contrast-rgb: 0, 0, 0;
+    --ion-color-primary-shade: #7e88ce;
+    --ion-color-primary-tint: #9aa5ec;
+  }
+}
